@@ -1,0 +1,247 @@
+[
+  {
+    "artista": "Electric Universe",
+    "palco": "Dome Stage",
+    "dia": "2025-07-28",
+    "inicio": "14:00",
+    "fim": "16:00"
+  },
+  {
+    "artista": "Astrix",
+    "palco": "Dome Stage",
+    "dia": "2025-07-28",
+    "inicio": "16:00",
+    "fim": "18:00"
+  },
+  {
+    "artista": "Infected Mushroom",
+    "palco": "Dome Stage",
+    "dia": "2025-07-28",
+    "inicio": "18:00",
+    "fim": "20:00"
+  },
+  {
+    "artista": "Ace Ventura",
+    "palco": "Dome Stage",
+    "dia": "2025-07-28",
+    "inicio": "20:00",
+    "fim": "22:00"
+  },
+  {
+    "artista": "Liquid Soul",
+    "palco": "Dome Stage",
+    "dia": "2025-07-28",
+    "inicio": "22:00",
+    "fim": "00:00"
+  },
+  {
+    "artista": "Captain Hook",
+    "palco": "Dome Stage",
+    "dia": "2025-07-29",
+    "inicio": "00:00",
+    "fim": "02:00"
+  },
+  {
+    "artista": "Perfect Stranger",
+    "palco": "Dome Stage",
+    "dia": "2025-07-29",
+    "inicio": "02:00",
+    "fim": "04:00"
+  },
+  {
+    "artista": "Minilogue",
+    "palco": "Dragons Nest",
+    "dia": "2025-07-28",
+    "inicio": "14:00",
+    "fim": "16:00"
+  },
+  {
+    "artista": "Extrawelt",
+    "palco": "Dragons Nest",
+    "dia": "2025-07-28",
+    "inicio": "16:00",
+    "fim": "18:00"
+  },
+  {
+    "artista": "Egbert",
+    "palco": "Dragons Nest",
+    "dia": "2025-07-28",
+    "inicio": "18:00",
+    "fim": "20:00"
+  },
+  {
+    "artista": "Einmusik",
+    "palco": "Dragons Nest",
+    "dia": "2025-07-28",
+    "inicio": "20:00",
+    "fim": "22:00"
+  },
+  {
+    "artista": "Rodriguez Jr.",
+    "palco": "Dragons Nest",
+    "dia": "2025-07-28",
+    "inicio": "22:00",
+    "fim": "00:00"
+  },
+  {
+    "artista": "N'to",
+    "palco": "Dragons Nest",
+    "dia": "2025-07-29",
+    "inicio": "00:00",
+    "fim": "02:00"
+  },
+  {
+    "artista": "Worakls",
+    "palco": "Dragons Nest",
+    "dia": "2025-07-29",
+    "inicio": "02:00",
+    "fim": "04:00"
+  },
+  {
+    "artista": "Desert Dwellers",
+    "palco": "Ozora",
+    "dia": "2025-07-28",
+    "inicio": "13:00",
+    "fim": "15:00"
+  },
+  {
+    "artista": "Carbon Based Lifeforms",
+    "palco": "Ozora",
+    "dia": "2025-07-28",
+    "inicio": "15:00",
+    "fim": "17:00"
+  },
+  {
+    "artista": "Solar Fields",
+    "palco": "Ozora",
+    "dia": "2025-07-28",
+    "inicio": "17:00",
+    "fim": "19:00"
+  },
+  {
+    "artista": "OTT",
+    "palco": "Ozora",
+    "dia": "2025-07-28",
+    "inicio": "19:00",
+    "fim": "21:00"
+  },
+  {
+    "artista": "Shpongle",
+    "palco": "Ozora",
+    "dia": "2025-07-28",
+    "inicio": "21:00",
+    "fim": "23:00"
+  },
+  {
+    "artista": "Younger Brother",
+    "palco": "Ozora",
+    "dia": "2025-07-29",
+    "inicio": "23:00",
+    "fim": "01:00"
+  },
+  {
+    "artista": "Globular",
+    "palco": "Ozora",
+    "dia": "2025-07-29",
+    "inicio": "01:00",
+    "fim": "03:00"
+  },
+  {
+    "artista": "Master Margherita",
+    "palco": "Pumpui",
+    "dia": "2025-07-28",
+    "inicio": "12:00",
+    "fim": "14:00"
+  },
+  {
+    "artista": "Grouch",
+    "palco": "Pumpui",
+    "dia": "2025-07-28",
+    "inicio": "14:00",
+    "fim": "16:00"
+  },
+  {
+    "artista": "Kalya Scintilla",
+    "palco": "Pumpui",
+    "dia": "2025-07-28",
+    "inicio": "16:00",
+    "fim": "18:00"
+  },
+  {
+    "artista": "Whitebear",
+    "palco": "Pumpui",
+    "dia": "2025-07-28",
+    "inicio": "18:00",
+    "fim": "20:00"
+  },
+  {
+    "artista": "Kuba",
+    "palco": "Pumpui",
+    "dia": "2025-07-28",
+    "inicio": "20:00",
+    "fim": "22:00"
+  },
+  {
+    "artista": "Merkaba",
+    "palco": "Pumpui",
+    "dia": "2025-07-28",
+    "inicio": "22:00",
+    "fim": "00:00"
+  },
+  {
+    "artista": "Sephira",
+    "palco": "Pumpui",
+    "dia": "2025-07-29",
+    "inicio": "00:00",
+    "fim": "02:00"
+  },
+  {
+    "artista": "BLiSS",
+    "palco": "Dome Stage",
+    "dia": "2025-07-29",
+    "inicio": "14:00",
+    "fim": "16:00"
+  },
+  {
+    "artista": "Tristan",
+    "palco": "Dome Stage",
+    "dia": "2025-07-29",
+    "inicio": "16:00",
+    "fim": "18:00"
+  },
+  {
+    "artista": "Vini Vici",
+    "palco": "Dome Stage",
+    "dia": "2025-07-29",
+    "inicio": "18:00",
+    "fim": "20:00"
+  },
+  {
+    "artista": "Ajja",
+    "palco": "Dome Stage",
+    "dia": "2025-07-29",
+    "inicio": "20:00",
+    "fim": "22:00"
+  },
+  {
+    "artista": "Digicult",
+    "palco": "Dome Stage",
+    "dia": "2025-07-29",
+    "inicio": "22:00",
+    "fim": "00:00"
+  },
+  {
+    "artista": "E-Clip",
+    "palco": "Dome Stage",
+    "dia": "2025-07-30",
+    "inicio": "00:00",
+    "fim": "02:00"
+  },
+  {
+    "artista": "Egorythmia",
+    "palco": "Dome Stage",
+    "dia": "2025-07-30",
+    "inicio": "02:00",
+    "fim": "04:00"
+  }
+]

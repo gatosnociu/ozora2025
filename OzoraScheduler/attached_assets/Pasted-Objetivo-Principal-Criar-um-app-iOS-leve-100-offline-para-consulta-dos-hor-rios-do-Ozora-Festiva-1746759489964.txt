@@ -1,0 +1,102 @@
+Objetivo Principal: Criar um app iOS leve, 100% offline, para consulta dos horários do Ozora Festival 2025, sem dependências externas (ex: internet ou bibliotecas de terceiros).
+
+Requisitos Essenciais:
+Funcionamento Offline Total:
+
+Todos os dados das timetables (Dome, Dragons Nest, Ozora, Pumpui) devem ser pré-carregados no app.
+
+Processamento prévio: Converter as imagens dos horários (via OCR) em uma base de dados local estruturada (ex: SQLite ou JSON embutido no app).
+
+Leveza e Performance:
+
+Tamanho do app < 15 MB (com imagens comprimidas e dados otimizados).
+
+Zero lag ao filtrar dados (ex: usar estruturas de dados eficientes, como dicionários para buscas rápidas).
+
+Sem animações pesadas ou frameworks desnecessários.
+
+Compatibilidade com iPhone (iOS Nativo):
+
+Desenvolvimento em Swift/SwiftUI (sem dependências de bibliotecas externas como React Native).
+
+Funcionamento em versões recentes do iOS (ex: iOS 16+).
+
+Empacotamento via Xcode para distribuição direta (ex: TestFlight) ou App Store.
+
+Detalhes Técnicos:
+1. Pré-Processamento dos Dados:
+Usar OCR (ex: VisionKit da Apple) para extrair artistas, horários e palcos das imagens.
+
+Salvar dados em JSON local estruturado:
+
+json
+{
+  "palco": "Dome Stage",
+  "dia": "2025-07-28",
+  "horarios": [
+    {"artista": "Artist A", "inicio": "14:00", "fim": "16:00"}
+  ]
+}
+Incluir verificação de checksum para garantir integridade dos dados (ex: evitar corrupção de arquivos).
+
+2. Arquitetura do App:
+View 1: Pesquisa de Artistas
+
+Busca instantânea (case-insensitive) no JSON/SQLite.
+
+Exibir: Palco, dia, horário e botão de "⭐ Favorito" (salvo no UserDefaults).
+
+View 2: "Agora" (Tempo Real)
+
+Usar relógio interno do dispositivo (não requer internet).
+
+Comparar com as datas do festival (ex: 28 Jul – 3 Ago 2025).
+
+Se fora do período: exibir contagem regressiva.
+
+Se dentro: destacar artistas ativos por palco (ex: fundo colorido).
+
+View 3: Exploração por Dia/Hora
+
+Picker de datas (28 Jul – 3 Ago) + slider de horas (00:00–23:59).
+
+Lista hierárquica: Palco → Artista (ex: estilo collapsible sections).
+
+3. Design e Otimização:
+UI minimalista com Dark Mode obrigatório (cores hex: #0A0A0A para fundo, #00FF99 para destaques).
+
+Usar SF Symbols (ícones nativos do iOS) para evitar assets externos.
+
+Compressão agressiva das imagens pré-processadas (ex: converter para WebP).
+
+4. Segurança e Atualizações:
+Se houver atualizações nas timetables, permitir download via Wi-Fi (opcional, mas não obrigatório).
+
+Dados críticos (ex: horários) devem ser assinados digitalmente para evitar modificações não autorizadas.
+
+Notas para o Compilador de IA:
+Priorizar código Swift puro (sem CocoaPods/Carthage/Swift Package Manager).
+
+Usar Core Data ou SQLite.swift para gestão local dos dados.
+
+Testar em dispositivos antigos (ex: iPhone SE 2ª geração) para garantir performance.
+
+Exemplo de Código Sucinto (Inspiração):
+swift
+// Busca Offline  
+func searchArtist(_ name: String) -> [Artist] {  
+    let data = loadJSON("timetables.json")  
+    return data.filter { $0.artista.localizedCaseInsensitiveContains(name) }  
+}  
+
+// Verificação de Data do Festival  
+func isFestivalActive() -> Bool {  
+    let currentDate = Date()  
+    return currentDate >= startDate && currentDate <= endDate  
+}  
+Fluxo de Instalação:
+Usuário baixa o app (via TestFlight/App Store).
+
+App já vem com dados pré-instalados (não requer primeiro acesso à internet).
+
+Funcionalidades disponíveis imediatamente, mesmo em modo avião.
